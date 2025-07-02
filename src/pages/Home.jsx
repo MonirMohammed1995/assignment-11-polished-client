@@ -8,7 +8,7 @@ import WhyChooseUs from '../components/WhyChooseUs';
 
 const Home = () => {
     return (
-        <div className='mt-24'>
+        <div className=''>
             <Helmet>
                 <title>Home</title>
             </Helmet>
