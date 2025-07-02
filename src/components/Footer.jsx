@@ -66,9 +66,9 @@ const Footer = () => {
           </h3>
           <div className="flex space-x-5 mt-2">
             {[
-              { href: '#', label: 'Facebook', icon: <Facebook size={22} /> },
-              { href: '#', label: 'Twitter', icon: <Twitter size={22} /> },
-              { href: '#', label: 'LinkedIn', icon: <Linkedin size={22} /> },
+              { href: 'https://www.facebook.com/', label: 'Facebook', icon: <Facebook size={22} /> },
+              { href: 'https://x.com/?lang=en', label: 'Twitter', icon: <Twitter size={22} /> },
+              { href: 'https://www.linkedin.com/feed/', label: 'LinkedIn', icon: <Linkedin size={22} /> },
             ].map(({ href, label, icon }) => (
               <a
                 key={label}
